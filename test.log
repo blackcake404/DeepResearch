@@ -1,0 +1,384 @@
+2025-08-29 21:03:04,566 - mcp4search - INFO - 
+Connected to server with tools: ['search', 'get_images']
+2025-08-29 21:03:04,566 - mcp4search - INFO - 
+MCP Client Started.
+2025-08-29 21:03:04,566 - mcp4search - INFO - Type your queries or 'quit' to exit.
+2025-08-29 21:03:33,487 - mcp4search - INFO - available_tools:
+
+[{'type': 'function', 'function': {'name': 'search', 'description': '', 'parameters': {'properties': {'query': {'title': 'Query', 'type': 'string'}}, 'required': ['query'], 'title': 'searchArguments', 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_images', 'description': '', 'parameters': {'properties': {'query': {'title': 'Query', 'type': 'string'}}, 'required': ['query'], 'title': 'get_imagesArguments', 'type': 'object'}}}]
+2025-08-29 21:03:35,908 - mcp4search - INFO - LLM output(tool call): 我来帮您写一篇关于魔兽世界的简短介绍文章。首先让我搜索一些相关信息来确保内容的准确性，然后获取一些相关的图片来使文章图文并茂。
+
+```json
+{"name": "search", "params": {"query": "魔兽世界 World of Warcraft 游戏介绍 背景故事"}}
+```
+2025-08-29 21:03:38,599 - __main__ - INFO - 
+==== Iteration 1 ====
+2025-08-29 21:03:46,842 - __main__ - INFO - Aggregated 15 unique links from this iteration.
+2025-08-29 21:03:46,842 - __main__ - INFO - Fetching content from: https://www.powerball.com/
+2025-08-29 21:04:00,875 - __main__ - INFO - Page usefulness for https://www.powerball.com/: No
+2025-08-29 21:04:00,875 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=John+Caldwell+Review
+2025-08-29 21:04:04,124 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=John+Caldwell+Review: No
+2025-08-29 21:04:04,124 - __main__ - INFO - Fetching content from: https://www.9game.cn/news/1674082.html
+2025-08-29 21:04:23,461 - __main__ - INFO - Page usefulness for https://www.9game.cn/news/1674082.html: No
+2025-08-29 21:04:23,461 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=Maxwell+Laurence+Review
+2025-08-29 21:04:26,205 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=Maxwell+Laurence+Review: No
+2025-08-29 21:04:26,206 - __main__ - INFO - Fetching content from: https://www.reddit.com/r/ChatGPT/comments/15gprta/what_should_i_be_adding_to_my_prompts_to_bypass/
+2025-08-29 21:04:29,462 - __main__ - INFO - Page usefulness for https://www.reddit.com/r/ChatGPT/comments/15gprta/what_should_i_be_adding_to_my_prompts_to_bypass/: No
+2025-08-29 21:04:29,462 - __main__ - INFO - Fetching content from: https://www.dfefarmpartners.com/markets/stocks.php?article=globeprwire-2025-8-26-j-and-m-roofing-and-roughcasting-ltd-strengthens-leadership-in-glasgow-with-expanded-roofing-and-roughcasting-services
+2025-08-29 21:04:35,154 - __main__ - INFO - Page usefulness for https://www.dfefarmpartners.com/markets/stocks.php?article=globeprwire-2025-8-26-j-and-m-roofing-and-roughcasting-ltd-strengthens-leadership-in-glasgow-with-expanded-roofing-and-roughcasting-services: No
+2025-08-29 21:04:35,155 - __main__ - INFO - Fetching content from: https://luntan.turtle-wow.org/viewtopic.php?t=663
+2025-08-29 21:04:47,960 - __main__ - INFO - Page usefulness for https://luntan.turtle-wow.org/viewtopic.php?t=663: No
+2025-08-29 21:04:47,960 - __main__ - INFO - Fetching content from: https://arxiv.org/pdf/2502.19127
+2025-08-29 21:04:54,089 - __main__ - INFO - Page usefulness for https://arxiv.org/pdf/2502.19127: No
+2025-08-29 21:04:54,090 - __main__ - INFO - Fetching content from: https://www.youtube.com/
+2025-08-29 21:05:01,114 - __main__ - INFO - Page usefulness for https://www.youtube.com/: No
+2025-08-29 21:05:01,114 - __main__ - INFO - Fetching content from: https://thehill.com/policy/technology/5463287-russian-hackers-targeting-critical-infrastructure-it-systems-fbi/
+2025-08-29 21:05:01,327 - __main__ - INFO - JINA fetch error for https://thehill.com/policy/technology/5463287-russian-hackers-targeting-critical-infrastructure-it-systems-fbi/: 451 - {"data":null,"code":451,"name":"SecurityCompromiseError","status":45102,"message":"Anonymous access to domain thehill.com blocked until Sat Aug 30 2025 01:18:28 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://thehill.com/homenews/campaign/5089106-republicans-democrats-ideology-extremes-gallup-survey/: DDoS attack suspected: Too many requests","readableMessage":"SecurityCompromiseError: Anonymous access to domain thehill.com blocked until Sat Aug 30 2025 01:18:28 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://thehill.com/homenews/campaign/5089106-republicans-democrats-ideology-extremes-gallup-survey/: DDoS attack suspected: Too many requests"}
+2025-08-29 21:05:01,330 - __main__ - INFO - Fetching content from: https://www.va.gov/search/?query=h%C3%ACnh+%E1%BA%A3nh+n%E1%BB%95+h%C5%A9+b%E1%BA%AFn+c%C3%A1+%5B+789VIPWIN.com+%5D%2CHJy
+2025-08-29 21:05:03,525 - __main__ - INFO - Page usefulness for https://www.va.gov/search/?query=h%C3%ACnh+%E1%BA%A3nh+n%E1%BB%95+h%C5%A9+b%E1%BA%AFn+c%C3%A1+%5B+789VIPWIN.com+%5D%2CHJy: No
+2025-08-29 21:05:03,525 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=UsBit+Review
+2025-08-29 21:05:24,234 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=UsBit+Review: No
+2025-08-29 21:05:24,234 - __main__ - INFO - Fetching content from: https://www.jiffylube.com/coupons
+2025-08-29 21:05:38,380 - __main__ - INFO - Page usefulness for https://www.jiffylube.com/coupons: No
+2025-08-29 21:05:38,380 - __main__ - INFO - Fetching content from: https://steamcommunity.com/sharedfiles/filedetails/?id=2928651088
+2025-08-29 21:05:38,809 - __main__ - INFO - JINA fetch error for https://steamcommunity.com/sharedfiles/filedetails/?id=2928651088: 451 - {"data":null,"code":451,"name":"SecurityCompromiseError","status":45102,"message":"Anonymous access to domain steamcommunity.com blocked until Sat Aug 30 2025 01:54:15 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://steamcommunity.com/sharedfiles/filedetails/?id=3541865651: DDoS attack suspected: Too many requests","readableMessage":"SecurityCompromiseError: Anonymous access to domain steamcommunity.com blocked until Sat Aug 30 2025 01:54:15 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://steamcommunity.com/sharedfiles/filedetails/?id=3541865651: DDoS attack suspected: Too many requests"}
+2025-08-29 21:05:38,813 - __main__ - INFO - Fetching content from: https://steamcommunity.com/sharedfiles/filedetails/?id=3557712427
+2025-08-29 21:05:39,051 - __main__ - INFO - JINA fetch error for https://steamcommunity.com/sharedfiles/filedetails/?id=3557712427: 451 - {"data":null,"code":451,"name":"SecurityCompromiseError","status":45102,"message":"Anonymous access to domain steamcommunity.com blocked until Sat Aug 30 2025 01:54:15 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://steamcommunity.com/sharedfiles/filedetails/?id=3541865651: DDoS attack suspected: Too many requests","readableMessage":"SecurityCompromiseError: Anonymous access to domain steamcommunity.com blocked until Sat Aug 30 2025 01:54:15 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://steamcommunity.com/sharedfiles/filedetails/?id=3541865651: DDoS attack suspected: Too many requests"}
+2025-08-29 21:05:39,055 - __main__ - INFO - No useful contexts found in this iteration.
+2025-08-29 21:05:41,599 - __main__ - INFO - LLM provides new search queries: ['魔兽世界最新资料片剧情和世界观更新', '魔兽世界经典旧世背景深度解析', '魔兽世界重要事件对当前游戏的影响', '魔兽世界阵营冲突历史与演变', '魔兽世界角色背景与文化设计理念']
+2025-08-29 21:05:41,599 - __main__ - INFO - 
+==== Iteration 2 ====
+2025-08-29 21:05:49,539 - __main__ - INFO - Aggregated 15 unique links from this iteration.
+2025-08-29 21:05:49,539 - __main__ - INFO - Fetching content from: https://player.bilibili.com/player.html
+2025-08-29 21:05:51,917 - __main__ - INFO - Page usefulness for https://player.bilibili.com/player.html: No
+2025-08-29 21:05:51,918 - __main__ - INFO - Fetching content from: https://translate.google.com/?hl=es
+2025-08-29 21:06:09,872 - __main__ - INFO - Page usefulness for https://translate.google.com/?hl=es: No
+2025-08-29 21:06:09,872 - __main__ - INFO - Fetching content from: https://lightinghouse.com/terms-of-service/
+2025-08-29 21:06:17,141 - __main__ - INFO - Page usefulness for https://lightinghouse.com/terms-of-service/: No
+2025-08-29 21:06:17,141 - __main__ - INFO - Fetching content from: https://www.montbell.com/
+2025-08-29 21:06:24,565 - __main__ - INFO - Page usefulness for https://www.montbell.com/: No
+2025-08-29 21:06:24,565 - __main__ - INFO - Fetching content from: https://store.steampowered.com/search/?term=%E4%BB%A3%E4%B9%B0Lowe%27s+Gift+Card%E2%9C%88%40esim1088
+2025-08-29 21:06:33,340 - __main__ - INFO - Page usefulness for https://store.steampowered.com/search/?term=%E4%BB%A3%E4%B9%B0Lowe%27s+Gift+Card%E2%9C%88%40esim1088: No
+2025-08-29 21:06:33,341 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=Lumicoin+IA+Review
+2025-08-29 21:07:10,410 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=Lumicoin+IA+Review: No
+2025-08-29 21:07:10,411 - __main__ - INFO - Fetching content from: https://www.nugenmarion.com/markets/stocks.php?article=marketersmedia-2025-8-24-we-mail-america-ranks-no-407-on-the-2025-inc-5000-list-of-americas-fastest-growing-private-companies
+2025-08-29 21:07:16,950 - __main__ - INFO - Page usefulness for https://www.nugenmarion.com/markets/stocks.php?article=marketersmedia-2025-8-24-we-mail-america-ranks-no-407-on-the-2025-inc-5000-list-of-americas-fastest-growing-private-companies: No
+2025-08-29 21:07:16,951 - __main__ - INFO - Fetching content from: https://forum.techtudo.com.br/perguntas/916455/whatsapp-web-nao-carrega-as-mensagens-o-que-fazer
+2025-08-29 21:07:54,198 - __main__ - INFO - Page usefulness for https://forum.techtudo.com.br/perguntas/916455/whatsapp-web-nao-carrega-as-mensagens-o-que-fazer: No
+2025-08-29 21:07:54,198 - __main__ - INFO - Fetching content from: https://libguides.baylor.edu/az/databases?q=You+Broadband+%E7%94%B5%E8%AF%9D%E5%8D%A1TG%E9%A3%9E%E6%9C%BA%40esim1088
+2025-08-29 21:07:58,327 - __main__ - INFO - Page usefulness for https://libguides.baylor.edu/az/databases?q=You+Broadband+%E7%94%B5%E8%AF%9D%E5%8D%A1TG%E9%A3%9E%E6%9C%BA%40esim1088: No
+2025-08-29 21:07:58,327 - __main__ - INFO - Fetching content from: https://finance.yahoo.com/
+2025-08-29 21:07:58,619 - __main__ - INFO - JINA fetch error for https://finance.yahoo.com/: 451 - {"data":null,"code":451,"name":"SecurityCompromiseError","status":45102,"message":"Anonymous access to domain finance.yahoo.com blocked until Sat Aug 30 2025 02:07:42 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://finance.yahoo.com/news/tariffs-live-updates-bessent-says-walmart-price-hikes-worst-case-scenario-trump-urges-walmart-to-eat-the-tariffs-191201919.html: DDoS attack suspected: Too many requests","readableMessage":"SecurityCompromiseError: Anonymous access to domain finance.yahoo.com blocked until Sat Aug 30 2025 02:07:42 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://finance.yahoo.com/news/tariffs-live-updates-bessent-says-walmart-price-hikes-worst-case-scenario-trump-urges-walmart-to-eat-the-tariffs-191201919.html: DDoS attack suspected: Too many requests"}
+2025-08-29 21:07:58,622 - __main__ - INFO - Fetching content from: https://stl.pku.edu.cn/uploads/202410/14193743_24814_6639681%5B-%5D7-8-Vol.1-Issue-2(2013).pdf
+2025-08-29 21:08:09,890 - mcp4search - INFO - tool name: 
+search
+tool call result: 
+meta=None content=[TextContent(type='text', text='Error executing tool search: Error code: 400 - {\'error\': {\'message\': \'This endpoint\\\'s maximum context length is 163840 tokens. However, you requested about 232483 tokens (232483 of text input). Please reduce the length of either one, or use the "middle-out" transform to compress your prompt automatically.\', \'code\': 400, \'metadata\': {\'provider_name\': None}}}', annotations=None, meta=None)] structuredContent=None isError=True
+2025-08-29 21:08:11,625 - mcp4search - INFO - LLM output: 
+我需要先搜索获取魔兽世界的基本信息，然后获取相关图片来创建图文并茂的文章。
+
+```json
+{"name": "search", "params": {"query": "魔兽世界简介 游戏特点"}}
+```
+2025-08-29 21:08:14,087 - __main__ - INFO - 
+==== Iteration 1 ====
+2025-08-29 21:08:24,206 - __main__ - INFO - Aggregated 15 unique links from this iteration.
+2025-08-29 21:08:24,207 - __main__ - INFO - Fetching content from: https://wowwiki.fandom.com/zh-tw/wiki/%E5%88%86%E9%A1%9E:UI-%E5%87%BD%E6%95%B8%E5%BA%AB
+2025-08-29 21:08:42,864 - __main__ - INFO - Page usefulness for https://wowwiki.fandom.com/zh-tw/wiki/%E5%88%86%E9%A1%9E:UI-%E5%87%BD%E6%95%B8%E5%BA%AB: No
+2025-08-29 21:08:42,865 - __main__ - INFO - Fetching content from: https://en.wikipedia.org/wiki/NetEase
+2025-08-29 21:08:43,071 - __main__ - INFO - JINA fetch error for https://en.wikipedia.org/wiki/NetEase: 451 - {"data":null,"code":451,"name":"SecurityCompromiseError","status":45102,"message":"Anonymous access to domain en.wikipedia.org blocked until Sat Aug 30 2025 01:13:47 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://en.wikipedia.org/wiki/Traffic_signs_in_post-Soviet_states: DDoS attack suspected: Too many requests","readableMessage":"SecurityCompromiseError: Anonymous access to domain en.wikipedia.org blocked until Sat Aug 30 2025 01:13:47 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://en.wikipedia.org/wiki/Traffic_signs_in_post-Soviet_states: DDoS attack suspected: Too many requests"}
+2025-08-29 21:08:43,074 - __main__ - INFO - Fetching content from: https://www.reddit.com/r/Morocco/comments/1bgfzw8/taxi_guys_ganging_up_on_an_uber_driver_while_the/
+2025-08-29 21:08:56,545 - __main__ - INFO - Page usefulness for https://www.reddit.com/r/Morocco/comments/1bgfzw8/taxi_guys_ganging_up_on_an_uber_driver_while_the/: No
+2025-08-29 21:08:56,545 - __main__ - INFO - Fetching content from: https://www.cbssports.com/college-basketball/scoreboard/
+2025-08-29 21:09:24,516 - __main__ - INFO - Page usefulness for https://www.cbssports.com/college-basketball/scoreboard/: No
+2025-08-29 21:09:24,517 - __main__ - INFO - Fetching content from: https://ol.3dmgame.com/gl/280302.html
+2025-08-29 21:09:35,977 - __main__ - INFO - Page usefulness for https://ol.3dmgame.com/gl/280302.html: No
+2025-08-29 21:09:35,977 - __main__ - INFO - Fetching content from: https://www.eldridgestreet.org/eee-festival
+2025-08-29 21:10:18,815 - __main__ - INFO - Page usefulness for https://www.eldridgestreet.org/eee-festival: No
+2025-08-29 21:10:18,816 - __main__ - INFO - Fetching content from: https://www.instagram.com/johnson_tsang_artist/
+2025-08-29 21:10:24,705 - __main__ - INFO - Page usefulness for https://www.instagram.com/johnson_tsang_artist/: No
+2025-08-29 21:10:24,705 - __main__ - INFO - Fetching content from: https://lesmemoiresdegretry.be/en
+2025-08-29 21:10:33,567 - __main__ - INFO - Page usefulness for https://lesmemoiresdegretry.be/en: No
+2025-08-29 21:10:33,568 - __main__ - INFO - Fetching content from: https://www.deckbird.ai/doc/169233
+2025-08-29 21:10:40,375 - __main__ - INFO - Page usefulness for https://www.deckbird.ai/doc/169233: No
+2025-08-29 21:10:40,375 - __main__ - INFO - Fetching content from: https://en.wikipedia.org/wiki/Premier_League_records_and_statistics
+2025-08-29 21:10:40,593 - __main__ - INFO - JINA fetch error for https://en.wikipedia.org/wiki/Premier_League_records_and_statistics: 451 - {"data":null,"code":451,"name":"SecurityCompromiseError","status":45102,"message":"Anonymous access to domain en.wikipedia.org blocked until Sat Aug 30 2025 01:13:47 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://en.wikipedia.org/wiki/Traffic_signs_in_post-Soviet_states: DDoS attack suspected: Too many requests","readableMessage":"SecurityCompromiseError: Anonymous access to domain en.wikipedia.org blocked until Sat Aug 30 2025 01:13:47 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://en.wikipedia.org/wiki/Traffic_signs_in_post-Soviet_states: DDoS attack suspected: Too many requests"}
+2025-08-29 21:10:40,597 - __main__ - INFO - Fetching content from: https://luntan.turtle-wow.org/viewtopic.php?t=663
+2025-08-29 21:11:04,431 - __main__ - INFO - JINA fetch error for https://luntan.turtle-wow.org/viewtopic.php?t=663: 503 - upstream connect error or disconnect/reset before headers. reset reason: connection termination
+2025-08-29 21:11:04,434 - __main__ - INFO - Fetching content from: https://libguides.baylor.edu/az/databases?q=JPJ%3ACOM+Mobile%E8%99%9A%E6%8B%9F%E5%8D%A1TG%E9%A3%9E%E6%9C%BA%40esim1088
+2025-08-29 21:11:17,076 - __main__ - INFO - JINA fetch error for https://libguides.baylor.edu/az/databases?q=JPJ%3ACOM+Mobile%E8%99%9A%E6%8B%9F%E5%8D%A1TG%E9%A3%9E%E6%9C%BA%40esim1088: 503 - upstream connect error or disconnect/reset before headers. reset reason: connection termination
+2025-08-29 21:11:17,079 - __main__ - INFO - Fetching content from: https://worldofwarcraft.blizzard.com/
+2025-08-29 21:11:20,464 - __main__ - INFO - Page usefulness for https://worldofwarcraft.blizzard.com/: No
+2025-08-29 21:11:20,464 - __main__ - INFO - Fetching content from: https://us.shop.battle.net/en-us/product/world-of-warcraft-the-war-within
+2025-08-29 21:11:58,206 - __main__ - INFO - Page usefulness for https://us.shop.battle.net/en-us/product/world-of-warcraft-the-war-within: No
+2025-08-29 21:11:58,206 - __main__ - INFO - Fetching content from: https://www.zhihu.com/question/649605933
+2025-08-29 21:12:32,825 - __main__ - INFO - Page usefulness for https://www.zhihu.com/question/649605933: No
+2025-08-29 21:12:32,825 - __main__ - INFO - No useful contexts found in this iteration.
+2025-08-29 21:12:35,218 - __main__ - INFO - LLM provides new search queries: ['魔兽世界游戏机制与系统深度分析', '魔兽世界玩家社区与文化影响', '魔兽世界经济系统与交易机制', '魔兽世界PvP与PvE内容比较', '魔兽世界最新资料片特色与玩家评价']
+2025-08-29 21:12:35,218 - __main__ - INFO - 
+==== Iteration 2 ====
+2025-08-29 21:12:45,383 - __main__ - INFO - Aggregated 15 unique links from this iteration.
+2025-08-29 21:12:45,383 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=TrendPulse+Review
+2025-08-29 21:12:52,106 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=TrendPulse+Review: No
+2025-08-29 21:12:52,106 - __main__ - INFO - Fetching content from: https://www.va.gov/search/?query=h%C3%ACnh+%E1%BA%A3nh+n%E1%BB%95+h%C5%A9+b%E1%BA%AFn+c%C3%A1+%5B+789VIPWIN.com+%5D%2CHJy
+2025-08-29 21:12:55,319 - __main__ - INFO - Page usefulness for https://www.va.gov/search/?query=h%C3%ACnh+%E1%BA%A3nh+n%E1%BB%95+h%C5%A9+b%E1%BA%AFn+c%C3%A1+%5B+789VIPWIN.com+%5D%2CHJy: No
+2025-08-29 21:12:55,319 - __main__ - INFO - Fetching content from: https://www.transfermarkt.co.uk/west-bromwich-albion/marktwertanalyse/verein/984
+2025-08-29 21:13:10,435 - __main__ - INFO - Page usefulness for https://www.transfermarkt.co.uk/west-bromwich-albion/marktwertanalyse/verein/984: No
+2025-08-29 21:13:10,436 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=Mooathon+Wealth+Society++Review
+2025-08-29 21:13:12,490 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=Mooathon+Wealth+Society++Review: No
+2025-08-29 21:13:12,490 - __main__ - INFO - Fetching content from: https://quizlet.knoji.com/promo-codes/
+2025-08-29 21:13:16,545 - __main__ - INFO - Page usefulness for https://quizlet.knoji.com/promo-codes/: No
+2025-08-29 21:13:16,546 - __main__ - INFO - Fetching content from: https://www.shell.com/search?q=%E5%92%8C%E8%AE%B0your%E7%9F%AD%E4%BF%A1%E5%8D%A1%E9%AB%98%E5%88%B0%E8%BE%BE%E7%8E%87TG%E2%9C%88%40SXDXQF
+2025-08-29 21:13:21,496 - __main__ - INFO - Page usefulness for https://www.shell.com/search?q=%E5%92%8C%E8%AE%B0your%E7%9F%AD%E4%BF%A1%E5%8D%A1%E9%AB%98%E5%88%B0%E8%BE%BE%E7%8E%87TG%E2%9C%88%40SXDXQF: No
+2025-08-29 21:13:21,496 - __main__ - INFO - Fetching content from: http://www.va.gov/search/?query=documents&t=true
+2025-08-29 21:13:23,521 - __main__ - INFO - Page usefulness for http://www.va.gov/search/?query=documents&t=true: No
+2025-08-29 21:13:23,521 - __main__ - INFO - Fetching content from: https://www.reddit.com/r/walmart/top/
+2025-08-29 21:13:29,165 - __main__ - INFO - Page usefulness for https://www.reddit.com/r/walmart/top/: No
+2025-08-29 21:13:29,166 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=Chameleon+Finance+Review
+2025-08-29 21:13:30,929 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=Chameleon+Finance+Review: No
+2025-08-29 21:13:30,929 - __main__ - INFO - Fetching content from: https://www.reddit.com/r/wow/comments/7825rs/whats_the_difference_between_a_pvp_and_a_pve_realm/
+2025-08-29 21:13:35,013 - __main__ - INFO - Page usefulness for https://www.reddit.com/r/wow/comments/7825rs/whats_the_difference_between_a_pvp_and_a_pve_realm/: No
+2025-08-29 21:13:35,013 - __main__ - INFO - Fetching content from: https://us.forums.blizzard.com/en/wow/t/pve-server-vs-pvp-server/380857
+2025-08-29 21:14:09,524 - __main__ - INFO - Page usefulness for https://us.forums.blizzard.com/en/wow/t/pve-server-vs-pvp-server/380857: Yes
+2025-08-29 21:14:15,364 - __main__ - INFO - Extracted context from https://us.forums.blizzard.com/en/wow/t/pve-server-vs-pvp-server/380857: 魔兽世界是一款大型多人在线角色扮演游戏，提供PvE（玩家对环境）和PvP（玩家对玩家）两种主要服务器类型。PvP服务器在争议区域遵循“红名即死”的格言，玩家可能被敌对阵营随时攻击，为游戏增添了开放世界的刺激感，但可能影响安全地进行内容进度。PvE服务器允许玩家选择何时进行PvP，例如通过标记自己或参与战场，被视为更休闲或“关爱型”服务器，但并非仅限于此；PvE服务器上也有玩家享受PvP内容，如战场。
+
+游戏特点包括开放世界探索、地下城、团队副本和战场等。PvE和PvP服务器在PvP方面主要区别是：PvE服务器中，PvP是可选的；PvP服务器中，PvP是强制的，取决于敌对玩家的选择。PvE服务器更适合休闲玩家，允许安全地专注于内容学习和进度，而PvP服务器提供更多自发世界PvP体验，但可能涉及随机击杀和营地问题。两种服务器都支持战场，战场是目标导向的公平PvP环境，并通过跨服匹配系统填充玩家。
+
+总体上，魔兽世界以PvE内容为核心，但PvP是重要组成部分。服务器选择取决于个人偏好：PvP服务器适合寻求挑战和世界PvP的玩家，PvE服务器适合偏好可控PvP和稳定进度的玩家。游戏社区多样，包括硬核和休闲玩家，都在两种服务器上活跃。
+2025-08-29 21:14:15,365 - __main__ - INFO - Fetching content from: https://jingyan.baidu.com/article/c843ea0b596b5536921e4a49.html
+2025-08-29 21:14:32,588 - __main__ - INFO - Page usefulness for https://jingyan.baidu.com/article/c843ea0b596b5536921e4a49.html: No
+2025-08-29 21:14:32,589 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=Just+Win+Crypto+Journey%EF%BC%88JWCJ%EF%BC%89+Review
+2025-08-29 21:15:06,864 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=Just+Win+Crypto+Journey%EF%BC%88JWCJ%EF%BC%89+Review: No
+2025-08-29 21:15:06,865 - __main__ - INFO - Fetching content from: https://www.va.gov/search/?query=c%C3%A1+c%C6%B0%E1%BB%A3c+b%C3%B3ng+%C4%91%C3%A1+%C4%83n+bao+nhi%C3%AAu+%5B+789VIPWIN.com+%5D%2Cx6Z
+2025-08-29 21:15:14,732 - __main__ - INFO - Page usefulness for https://www.va.gov/search/?query=c%C3%A1+c%C6%B0%E1%BB%A3c+b%C3%B3ng+%C4%91%C3%A1+%C4%83n+bao+nhi%C3%AAu+%5B+789VIPWIN.com+%5D%2Cx6Z: No
+2025-08-29 21:15:14,732 - __main__ - INFO - Fetching content from: https://web.whatsapp.com/
+2025-08-29 21:15:37,796 - __main__ - INFO - Page usefulness for https://web.whatsapp.com/: No
+2025-08-29 21:15:54,997 - __main__ - INFO - LLM provides new search queries: ['魔兽世界新手入门与基础知识', '魔兽世界各版本主要特色对比', '魔兽世界玩家常见问题与解答', '魔兽世界社交系统与公会功能', '魔兽世界最新游戏更新与未来展望']
+2025-08-29 21:15:54,998 - __main__ - INFO - 
+==== Iteration 3 ====
+2025-08-29 21:16:03,296 - __main__ - INFO - Aggregated 14 unique links from this iteration.
+2025-08-29 21:16:03,297 - __main__ - INFO - Fetching content from: https://www.glendenninggrainandsoil.com/markets/stocks.php?article=marketersmedia-2025-7-7-author-jodi-lynn-pavlock-announces-release-of-memoir-jekyll-cant-hyde-offering-a-raw-account-of-narcissistic-abuse-and-survival
+2025-08-29 21:16:09,740 - __main__ - INFO - Page usefulness for https://www.glendenninggrainandsoil.com/markets/stocks.php?article=marketersmedia-2025-7-7-author-jodi-lynn-pavlock-announces-release-of-memoir-jekyll-cant-hyde-offering-a-raw-account-of-narcissistic-abuse-and-survival: No
+2025-08-29 21:16:09,741 - __main__ - INFO - Fetching content from: https://play.google.com/
+2025-08-29 21:16:32,625 - __main__ - INFO - Page usefulness for https://play.google.com/: No
+2025-08-29 21:16:32,626 - __main__ - INFO - Fetching content from: https://fightingillini.com/t%E7%88%BD%E4%B8%80%E7%88%BD%E3%80%90%E4%B9%B0%E6%82%A6%E5%88%BB%E5%88%B0GETRELX.COM%E3%80%91SexecLOY7
+2025-08-29 21:16:36,505 - __main__ - INFO - Page usefulness for https://fightingillini.com/t%E7%88%BD%E4%B8%80%E7%88%BD%E3%80%90%E4%B9%B0%E6%82%A6%E5%88%BB%E5%88%B0GETRELX.COM%E3%80%91SexecLOY7: No
+2025-08-29 21:16:36,506 - __main__ - INFO - Fetching content from: https://www.teamlogicit.com/
+2025-08-29 21:17:10,990 - __main__ - INFO - Page usefulness for https://www.teamlogicit.com/: No
+2025-08-29 21:17:10,991 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=Coxno+Review
+2025-08-29 21:17:44,506 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=Coxno+Review: No
+2025-08-29 21:17:44,506 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=Crypen+Review
+2025-08-29 21:18:11,030 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=Crypen+Review: No
+2025-08-29 21:18:11,031 - __main__ - INFO - Fetching content from: http://www.va.gov/search/?query=documents&t=true
+2025-08-29 21:18:14,701 - __main__ - INFO - Page usefulness for http://www.va.gov/search/?query=documents&t=true: No
+2025-08-29 21:18:14,702 - __main__ - INFO - Fetching content from: https://support.microsoft.com/en-us/windows/fix-bluetooth-problems-in-windows-723e092f-03fa-858b-5c80-131ec3fba75c
+2025-08-29 21:18:23,938 - __main__ - INFO - Page usefulness for https://support.microsoft.com/en-us/windows/fix-bluetooth-problems-in-windows-723e092f-03fa-858b-5c80-131ec3fba75c: No
+2025-08-29 21:18:23,939 - __main__ - INFO - Fetching content from: https://luntan.turtle-wow.org/viewtopic.php?t=663
+2025-08-29 21:18:26,589 - __main__ - INFO - Page usefulness for https://luntan.turtle-wow.org/viewtopic.php?t=663: No
+2025-08-29 21:18:26,589 - __main__ - INFO - Fetching content from: https://classic.miliui.com/wow/xiv_databar
+2025-08-29 21:18:35,913 - __main__ - INFO - Page usefulness for https://classic.miliui.com/wow/xiv_databar: No
+2025-08-29 21:18:35,913 - __main__ - INFO - Fetching content from: https://stripe.com/
+2025-08-29 21:19:12,397 - __main__ - INFO - Page usefulness for https://stripe.com/: No
+2025-08-29 21:19:12,398 - __main__ - INFO - Fetching content from: https://support.blizzard.com/en/search?q=Chameleon+Finance+Review
+2025-08-29 21:19:16,111 - __main__ - INFO - Page usefulness for https://support.blizzard.com/en/search?q=Chameleon+Finance+Review: No
+2025-08-29 21:19:16,112 - __main__ - INFO - Fetching content from: https://www.va.gov/search/?query=m%C3%ACnh+xin+khuy%E1%BA%BFn+m%C3%A3i+n%E1%BA%A1p+%C4%91%E1%BA%A7u+n%E1%BB%95+h%C5%A9+b%E1%BA%AFn+c%C3%A1%5B+789VIPWIN.com+%5D%2CG1F
+2025-08-29 21:19:17,334 - __main__ - INFO - Page usefulness for https://www.va.gov/search/?query=m%C3%ACnh+xin+khuy%E1%BA%BFn+m%C3%A3i+n%E1%BA%A1p+%C4%91%E1%BA%A7u+n%E1%BB%95+h%C5%A9+b%E1%BA%AFn+c%C3%A1%5B+789VIPWIN.com+%5D%2CG1F: No
+2025-08-29 21:19:17,335 - __main__ - INFO - Fetching content from: https://otechworld.com/how-to-get-help-in-windows-11/
+2025-08-29 21:19:26,676 - __main__ - INFO - Page usefulness for https://otechworld.com/how-to-get-help-in-windows-11/: No
+2025-08-29 21:19:26,676 - __main__ - INFO - No useful contexts found in this iteration.
+2025-08-29 21:19:27,609 - __main__ - ERROR - Error in generating new research queries: invalid syntax (<string>, line 1). Response: .
+2025-08-29 21:19:27,609 - __main__ - INFO - LLM does not provide any new search queries. End.
+2025-08-29 21:19:27,615 - mcp4search - INFO - tool name: 
+search
+tool call result: 
+meta=None content=[TextContent(type='text', text='魔兽世界是一款大型多人在线角色扮演游戏，提供PvE（玩家对环境）和PvP（玩家对玩家）两种主要服务器类型。PvP服务器在争议区域遵循“红名即死”的格言，玩家可能被敌对阵营随时攻击，为游戏增添了开放世界的刺激感，但可能影响安全地进行内容进度。PvE服务器允许玩家选择何时进行PvP，例如通过标记自己或参与战场，被视为更休闲或“关爱型”服务器，但并非仅限于此；PvE服务器上也有玩家享受PvP内容，如战场。\n\n游戏特点包括开放世界探索、地下城、团队副本和战场等。PvE和PvP服务器在PvP方面主要区别是：PvE服务器中，PvP是可选的；PvP服务器中，PvP是强制的，取决于敌对玩家的选择。PvE服务器更适合休闲玩家，允许安全地专注于内容学习和进度，而PvP服务器提供更多自发世界PvP体验，但可能涉及随机击杀和营地问题。两种服务器都支持战场，战场是目标导向的公平PvP环境，并通过跨服匹配系统填充玩家。\n\n总体上，魔兽世界以PvE内容为核心，但PvP是重要组成部分。服务器选择取决于个人偏好：PvP服务器适合寻求挑战和世界PvP的玩家，PvE服务器适合偏好可控PvP和稳定进度的玩家。游戏社区多样，包括硬核和休闲玩家，都在两种服务器上活跃。', annotations=None, meta=None)] structuredContent={'result': '魔兽世界是一款大型多人在线角色扮演游戏，提供PvE（玩家对环境）和PvP（玩家对玩家）两种主要服务器类型。PvP服务器在争议区域遵循“红名即死”的格言，玩家可能被敌对阵营随时攻击，为游戏增添了开放世界的刺激感，但可能影响安全地进行内容进度。PvE服务器允许玩家选择何时进行PvP，例如通过标记自己或参与战场，被视为更休闲或“关爱型”服务器，但并非仅限于此；PvE服务器上也有玩家享受PvP内容，如战场。\n\n游戏特点包括开放世界探索、地下城、团队副本和战场等。PvE和PvP服务器在PvP方面主要区别是：PvE服务器中，PvP是可选的；PvP服务器中，PvP是强制的，取决于敌对玩家的选择。PvE服务器更适合休闲玩家，允许安全地专注于内容学习和进度，而PvP服务器提供更多自发世界PvP体验，但可能涉及随机击杀和营地问题。两种服务器都支持战场，战场是目标导向的公平PvP环境，并通过跨服匹配系统填充玩家。\n\n总体上，魔兽世界以PvE内容为核心，但PvP是重要组成部分。服务器选择取决于个人偏好：PvP服务器适合寻求挑战和世界PvP的玩家，PvE服务器适合偏好可控PvP和稳定进度的玩家。游戏社区多样，包括硬核和休闲玩家，都在两种服务器上活跃。'} isError=False
+2025-08-29 21:19:29,340 - mcp4search - INFO - LLM output: 
+现在让我获取一些魔兽世界的图片来使文章图文并茂。
+
+```json
+{"name": "get_images", "params": {"query": "魔兽世界 World of Warcraft 游戏场景"}}
+```
+2025-08-29 21:19:29,343 - __main__ - INFO - Searching for images for query: 魔兽世界 World of Warcraft 游戏场景
+2025-08-29 21:19:31,091 - __main__ - INFO - Fetching image description for: http://i1.sinaimg.cn/gm/cr/2011/0429/1064402000.jpg
+2025-08-29 21:19:47,242 - __main__ - INFO - Image description for http://i1.sinaimg.cn/gm/cr/2011/0429/1064402000.jpg: 
+2025-08-29 21:19:47,243 - __main__ - INFO - Fetching image description for: http://www.v3wall.com/wallpaper/1920_1200/1106/1920_1200_201106240953031697008.jpg
+2025-08-29 21:20:20,440 - __main__ - INFO - Image description for http://www.v3wall.com/wallpaper/1920_1200/1106/1920_1200_201106240953031697008.jpg: 这张图片是一个充满奇幻和暗黑氛围的艺术作品，以下是图片内容的详细描述：
+
+### **整体氛围**
+- **色调与背景**：整体色调偏暗，呈现出一种幽暗、神秘的感觉。背景是一个阴森的夜晚，天空中有一轮明亮的满月，月光透过乌云洒下淡淡的白色光晕，增加了画面的阴郁感。
+- **环境**：前景是一片有落叶的地面上，背景则是几个石制建筑，灯光明亮，建筑的设计风格类似中世纪的欧陆风格，窗户中透出温暖的光，与冷清的外部环境形成对比。
+
+### **角色描述**
+- **中心人物**：画面中央是一个挥舞武器的狼人战士，浑身覆盖着肌肉与毛发，表情凶猛，红色的眼睛闪烁着嗜血的光芒。他的铠甲设计复杂，带有尖刺和兽形元素，显示出强大的力量和野性。
+  - **武器**：这位狼人战士右手握着一把尖锐的长刀，左手戴着护甲，掌中似乎握着某种神秘的元素或魔法波动。
+- **其他狼人**：画面中还有其他几位狼人战士，他们分布在画面左侧和中间偏后的位置。
+  - **左侧狼人**：这是一位身材健硕的狼人，手持武器，站在树木旁边，姿态警惕，眼神狰狞，似乎在观察周围的环境。
+  - **中间偏后的狼人**：这一位手持长剑，剑光在月光下反射出寒芒，面向前方，似乎准备迎战。
+  - **其他狼人**：周围还有几位狼人战士，他们都身穿铠甲，手中持有武器，显得戒备且强大。
+
+### **地面与细节**
+- **地面**：地面上散落着金黄色和红色的落叶，营造出秋天的季节感，同时增添了一丝萧瑟的氛围。
+- **树木**：画面四周是高大而扭曲的树木，枝干干枯，没有叶子，更加突显了画面的阴森恐怖。
+- **武器与铠甲细节**：狼人们的铠甲和武器设计精致，带有兽骨和獠牙的元素，显得冷酷而凶悍。
+
+### **文字与图标**
+- **底部文字**：画面底部有《魔兽世界》的标志性字样：“**World of Warcraft: Cataclysm**”，表明这是《魔兽世界》某种扩展或版本的宣传图片。
+- **标志**：左下角有《魔兽世界》的经典圆形标志，右下角有版权信息，显示为“©2009 Blizzard Entertainment. All Rights Reserved”，表明这是暴雪娱乐的官方作品。
+
+### **整体印象**
+这张图片充满奇幻与暗黑元素，画面中的狼人战士们展现出强大的力量和野性，同时背景的建筑和环境又营造出一种即将发生战斗的紧张氛围。整体风格与《魔兽世界》充满史诗感的世界观相符，传达出一种紧张而宏大的故事背景。
+2025-08-29 21:20:20,441 - __main__ - INFO - Fetching image description for: https://www.artic.edu/iiif/2//b272df73-a965-ac37-4172-be4e99483637/full/843,/0/default.jpg
+2025-08-29 21:20:24,971 - __main__ - INFO - Image description for https://www.artic.edu/iiif/2//b272df73-a965-ac37-4172-be4e99483637/full/843,/0/default.jpg: 
+2025-08-29 21:20:24,973 - mcp4search - INFO - tool name: 
+get_images
+tool call result: 
+meta=None content=[TextContent(type='text', text='图片链接: http://i1.sinaimg.cn/gm/cr/2011/0429/1064402000.jpg\n描述: \n\n图片链接: http://www.v3wall.com/wallpaper/1920_1200/1106/1920_1200_201106240953031697008.jpg\n描述: 这张图片是一个充满奇幻和暗黑氛围的艺术作品，以下是图片内容的详细描述：\n\n### **整体氛围**\n- **色调与背景**：整体色调偏暗，呈现出一种幽暗、神秘的感觉。背景是一个阴森的夜晚，天空中有一轮明亮的满月，月光透过乌云洒下淡淡的白色光晕，增加了画面的阴郁感。\n- **环境**：前景是一片有落叶的地面上，背景则是几个石制建筑，灯光明亮，建筑的设计风格类似中世纪的欧陆风格，窗户中透出温暖的光，与冷清的外部环境形成对比。\n\n### **角色描述**\n- **中心人物**：画面中央是一个挥舞武器的狼人战士，浑身覆盖着肌肉与毛发，表情凶猛，红色的眼睛闪烁着嗜血的光芒。他的铠甲设计复杂，带有尖刺和兽形元素，显示出强大的力量和野性。\n  - **武器**：这位狼人战士右手握着一把尖锐的长刀，左手戴着护甲，掌中似乎握着某种神秘的元素或魔法波动。\n- **其他狼人**：画面中还有其他几位狼人战士，他们分布在画面左侧和中间偏后的位置。\n  - **左侧狼人**：这是一位身材健硕的狼人，手持武器，站在树木旁边，姿态警惕，眼神狰狞，似乎在观察周围的环境。\n  - **中间偏后的狼人**：这一位手持长剑，剑光在月光下反射出寒芒，面向前方，似乎准备迎战。\n  - **其他狼人**：周围还有几位狼人战士，他们都身穿铠甲，手中持有武器，显得戒备且强大。\n\n### **地面与细节**\n- **地面**：地面上散落着金黄色和红色的落叶，营造出秋天的季节感，同时增添了一丝萧瑟的氛围。\n- **树木**：画面四周是高大而扭曲的树木，枝干干枯，没有叶子，更加突显了画面的阴森恐怖。\n- **武器与铠甲细节**：狼人们的铠甲和武器设计精致，带有兽骨和獠牙的元素，显得冷酷而凶悍。\n\n### **文字与图标**\n- **底部文字**：画面底部有《魔兽世界》的标志性字样：“**World of Warcraft: Cataclysm**”，表明这是《魔兽世界》某种扩展或版本的宣传图片。\n- **标志**：左下角有《魔兽世界》的经典圆形标志，右下角有版权信息，显示为“©2009 Blizzard Entertainment. All Rights Reserved”，表明这是暴雪娱乐的官方作品。\n\n### **整体印象**\n这张图片充满奇幻与暗黑元素，画面中的狼人战士们展现出强大的力量和野性，同时背景的建筑和环境又营造出一种即将发生战斗的紧张氛围。整体风格与《魔兽世界》充满史诗感的世界观相符，传达出一种紧张而宏大的故事背景。\n\n图片链接: https://www.artic.edu/iiif/2//b272df73-a965-ac37-4172-be4e99483637/full/843,/0/default.jpg\n描述: ', annotations=None, meta=None)] structuredContent={'result': '图片链接: http://i1.sinaimg.cn/gm/cr/2011/0429/1064402000.jpg\n描述: \n\n图片链接: http://www.v3wall.com/wallpaper/1920_1200/1106/1920_1200_201106240953031697008.jpg\n描述: 这张图片是一个充满奇幻和暗黑氛围的艺术作品，以下是图片内容的详细描述：\n\n### **整体氛围**\n- **色调与背景**：整体色调偏暗，呈现出一种幽暗、神秘的感觉。背景是一个阴森的夜晚，天空中有一轮明亮的满月，月光透过乌云洒下淡淡的白色光晕，增加了画面的阴郁感。\n- **环境**：前景是一片有落叶的地面上，背景则是几个石制建筑，灯光明亮，建筑的设计风格类似中世纪的欧陆风格，窗户中透出温暖的光，与冷清的外部环境形成对比。\n\n### **角色描述**\n- **中心人物**：画面中央是一个挥舞武器的狼人战士，浑身覆盖着肌肉与毛发，表情凶猛，红色的眼睛闪烁着嗜血的光芒。他的铠甲设计复杂，带有尖刺和兽形元素，显示出强大的力量和野性。\n  - **武器**：这位狼人战士右手握着一把尖锐的长刀，左手戴着护甲，掌中似乎握着某种神秘的元素或魔法波动。\n- **其他狼人**：画面中还有其他几位狼人战士，他们分布在画面左侧和中间偏后的位置。\n  - **左侧狼人**：这是一位身材健硕的狼人，手持武器，站在树木旁边，姿态警惕，眼神狰狞，似乎在观察周围的环境。\n  - **中间偏后的狼人**：这一位手持长剑，剑光在月光下反射出寒芒，面向前方，似乎准备迎战。\n  - **其他狼人**：周围还有几位狼人战士，他们都身穿铠甲，手中持有武器，显得戒备且强大。\n\n### **地面与细节**\n- **地面**：地面上散落着金黄色和红色的落叶，营造出秋天的季节感，同时增添了一丝萧瑟的氛围。\n- **树木**：画面四周是高大而扭曲的树木，枝干干枯，没有叶子，更加突显了画面的阴森恐怖。\n- **武器与铠甲细节**：狼人们的铠甲和武器设计精致，带有兽骨和獠牙的元素，显得冷酷而凶悍。\n\n### **文字与图标**\n- **底部文字**：画面底部有《魔兽世界》的标志性字样：“**World of Warcraft: Cataclysm**”，表明这是《魔兽世界》某种扩展或版本的宣传图片。\n- **标志**：左下角有《魔兽世界》的经典圆形标志，右下角有版权信息，显示为“©2009 Blizzard Entertainment. All Rights Reserved”，表明这是暴雪娱乐的官方作品。\n\n### **整体印象**\n这张图片充满奇幻与暗黑元素，画面中的狼人战士们展现出强大的力量和野性，同时背景的建筑和环境又营造出一种即将发生战斗的紧张氛围。整体风格与《魔兽世界》充满史诗感的世界观相符，传达出一种紧张而宏大的故事背景。\n\n图片链接: https://www.artic.edu/iiif/2//b272df73-a965-ac37-4172-be4e99483637/full/843,/0/default.jpg\n描述: '} isError=False
+2025-08-29 21:20:36,706 - mcp4search - INFO - LLM output: 
+现在让我再获取一些更广泛的魔兽世界图片，包括游戏中的不同种族和场景。
+
+```json
+{"name": "get_images", "params": {"query": "魔兽世界 联盟部落 艾泽拉斯"}}
+```
+现在让我再获取一些更广泛的魔兽世界图片，包括游戏中的不同种族和场景。
+
+```json
+{"name": "get_images", "params": {"query": "魔兽世界 联盟部落 艾泽拉斯"}}
+```
+2025-08-29 21:20:36,708 - __main__ - INFO - Searching for images for query: 魔兽世界 联盟部落 艾泽拉斯
+2025-08-29 21:20:38,650 - __main__ - INFO - Fetching image description for: https://i0.hdslb.com/bfs/article/39418eeead4d7855eb112e7db6b3b3dee6c8d8d1.png
+2025-08-29 21:21:00,607 - __main__ - INFO - Image description for https://i0.hdslb.com/bfs/article/39418eeead4d7855eb112e7db6b3b3dee6c8d8d1.png: 这张图片展示了一个游戏中的角色，背景是一个昏暗的环境中，天空呈现出深色，地面上有一些木质结构。以下是图片的具体描述：
+
+### **角色描述：**
+1. **外观：**
+   - **肤色**：角色皮肤呈绿色，带有邪恶的气息。
+   - **眼睛**：角色的眼睛发出绿色的光，显得非常诡异。
+   - **发型**：角色的头发是深色的，带有尖尖的发梢，显得很有攻击性。
+   - **服饰**：
+     - 上身穿着类似护甲的衣服，护甲上有黄色的装饰。
+     - 下身穿着绿色和黑色的裤子，裤腿上有复杂的花纹。
+     - 脚上穿着黑色的靴子。
+     - 腰间似乎有一些护甲或装饰物。
+
+2. **配饰：**
+   - 角：角色头上有一对弯曲的角，角的颜色是深绿色。
+   - 面具：角色戴着一副黑色的面具，遮住了嘴巴和下巴。
+
+3. **姿态：**
+   - 角色站立，双手自然垂下。
+   - 左手似乎拿着一个黄色的物体，形状类似于一个笑脸。
+
+4. **背景：**
+   - 背景中有巨大的红色幔布，幔布的边缘带有褶皱，显得非常厚重。
+   - 天空呈现出黄昏或黎明时分的颜色，整体氛围昏暗且神秘。
+
+### **整体氛围：**
+- 整体画面给人一种恐怖和神秘的感觉，角色的绿色皮肤、绿色眼睛和黑色面具都增加了邪恶的气息。
+- 黑暗的天空和巨大的幔布背景进一步增强了这种氛围。
+
+这张图片可能来源于一款奇幻或恐怖风格的电子游戏，角色的设计非常符合这种类型的场景设置。
+2025-08-29 21:21:00,608 - __main__ - INFO - Fetching image description for: https://puui.qpic.cn/vpic_cover/t07005q6xy6/t07005q6xy6_hz.jpg/1280
+2025-08-29 21:21:18,477 - __main__ - INFO - Image description for https://puui.qpic.cn/vpic_cover/t07005q6xy6/t07005q6xy6_hz.jpg/1280: 这张图片展示了一个场景，可能来自动画、电影或游戏，其中包含两个主要角色。以下是图片内容的详细描述：
+
+1. **角色和姿态**：
+   - 图片右侧的角色是一位身穿重型盔甲的战士，盔甲显得非常复杂和精致，带有机械感的设计。盔甲颜色主要是黑色和金色，肩部和胸部有明显的装饰。
+   - 这位角色的头发是金色的，长度适中，发型整齐，露出一部分耳朵。
+   - 他的头部动作似乎显示出一种惊讶或警觉的状态，头部微微向后仰，眼睛望向一侧，表情紧张或专注。
+   - 他的右手向外伸出，可能在触摸或握着某个物体。
+
+2. **另一位角色**：
+   - 图片左侧的角色只露出了一部分肢体，可以看到手臂和手套。
+   - 手臂肌肉发达，穿着黑色紧身衣，手套上有红色的装饰或标记。
+   - 手掌和手指紧紧握着右侧角色的右腕，力量感十足，似乎在施加某种压力或握住对方的注意力。
+
+3. **背景**：
+   - 背景模糊，似乎是在一个阴天或者是天空中有云层，天空的颜色呈现浅蓝或灰白，没有明显的太阳或其他光线。
+
+4. **氛围**：
+   - 整体氛围显得紧张且充满戏剧性，可能是战斗即将发生或者正在进行中的一刻。
+   - 角色的动态和表情传达出一种冲突或对峙的情绪，可能是双方正处于某种交互或对决的瞬间。
+
+图片的细节和风格显示出一种未来感和机械感较强的设定，可能是科幻或奇幻题材的作品。
+2025-08-29 21:21:18,477 - __main__ - INFO - Fetching image description for: https://www.ign.com.cn/sm/t/ign_cn/news/w/world-of-w/world-of-warcraft-battle-for-azeroth-review-in-progress_hc4u.1280.jpg
+2025-08-29 21:21:48,334 - __main__ - INFO - Image description for https://www.ign.com.cn/sm/t/ign_cn/news/w/world-of-w/world-of-warcraft-battle-for-azeroth-review-in-progress_hc4u.1280.jpg: 这张图片展示了一幅充满奇幻色彩的艺术插画，画面中主要有两个人物，背景是一个战场场景，充满了紧张和对抗的氛围。
+
+### **主要人物：**
+1. **左侧人物：**
+   - **外貌特征：**
+     - 独特的尖耳，表明他是精灵或其他具有精灵特征的角色。
+     - 红色的眼睛，散发出冷酷和神秘的气息。
+     - 白色的长发，显得非常飘逸。
+     - 脸上有一些面部装饰，可能是一种纹身或符号，增加了神秘感。
+   - **服饰和装备：**
+     - 他戴着一顶紫色的兜帽，兜帽上有白色的装饰花纹，显得非常精致。
+     - 肩膀上有一块紫色的护甲，护甲上镶嵌有两个骷髅头图案，暗示可能与死亡、暗黑或魔法力量相关。
+     - 整体外观显得神秘而强大，似乎是一个法师或拥有魔法能力的角色。
+
+2. **右侧人物：**
+   - **外貌特征：**
+     - 金黄色的长发，梳理整齐，显得干净利落。
+     - 脸上表情严肃，眼神中透露出坚定和决心。
+     - 耳朵较小，与左侧精灵角色的尖耳形成对比，表明他是人类或其他身材强健的角色。
+   - **服饰和装备：**
+     - 胸前和肩膀上穿着华丽而复杂的金色铠甲，铠甲上有很多雕刻的花纹和设计，显得非常精致。
+     - 护甲的设计给人一种战士或骑士的感觉，显示出强大的战斗力。
+
+### **背景：**
+- 背景是一个广阔的战场，天空中弥漫着浓烈的烟尘，暗示战争已经持续了相当长的时间。
+- 战场上可以看到大量的士兵在战斗，士兵们挥舞着武器，有些士兵倒在地上，整个画面充满了混乱和紧张的氛围。
+- 天空虽然是阴沉的，但地平线处有一抹黄色的光芒，可能是夕阳或战火的余晖，增添了一丝戏剧性。
+
+### **整体氛围：**
+- 画面中左右两侧的角色形成鲜明对比，左侧角色显得神秘而冷酷，右侧角色则坚定而强大，似乎两人之间存在某种对立或冲突。
+- 整个场景充满了奇幻和史诗的风格，可能是一场正面冲突或对抗的瞬间，背景的战场更加强化了这种紧张的氛围。
+
+这幅插画展现了奇幻世界中两种不同力量的对峙，人物细节和背景设计都非常精美，充满了视觉冲击力。
+2025-08-29 21:21:48,341 - mcp4search - INFO - tool name: 
+get_images
+tool call result: 
+meta=None content=[TextContent(type='text', text='图片链接: https://i0.hdslb.com/bfs/article/39418eeead4d7855eb112e7db6b3b3dee6c8d8d1.png\n描述: 这张图片展示了一个游戏中的角色，背景是一个昏暗的环境中，天空呈现出深色，地面上有一些木质结构。以下是图片的具体描述：\n\n### **角色描述：**\n1. **外观：**\n   - **肤色**：角色皮肤呈绿色，带有邪恶的气息。\n   - **眼睛**：角色的眼睛发出绿色的光，显得非常诡异。\n   - **发型**：角色的头发是深色的，带有尖尖的发梢，显得很有攻击性。\n   - **服饰**：\n     - 上身穿着类似护甲的衣服，护甲上有黄色的装饰。\n     - 下身穿着绿色和黑色的裤子，裤腿上有复杂的花纹。\n     - 脚上穿着黑色的靴子。\n     - 腰间似乎有一些护甲或装饰物。\n\n2. **配饰：**\n   - 角：角色头上有一对弯曲的角，角的颜色是深绿色。\n   - 面具：角色戴着一副黑色的面具，遮住了嘴巴和下巴。\n\n3. **姿态：**\n   - 角色站立，双手自然垂下。\n   - 左手似乎拿着一个黄色的物体，形状类似于一个笑脸。\n\n4. **背景：**\n   - 背景中有巨大的红色幔布，幔布的边缘带有褶皱，显得非常厚重。\n   - 天空呈现出黄昏或黎明时分的颜色，整体氛围昏暗且神秘。\n\n### **整体氛围：**\n- 整体画面给人一种恐怖和神秘的感觉，角色的绿色皮肤、绿色眼睛和黑色面具都增加了邪恶的气息。\n- 黑暗的天空和巨大的幔布背景进一步增强了这种氛围。\n\n这张图片可能来源于一款奇幻或恐怖风格的电子游戏，角色的设计非常符合这种类型的场景设置。\n\n图片链接: https://puui.qpic.cn/vpic_cover/t07005q6xy6/t07005q6xy6_hz.jpg/1280\n描述: 这张图片展示了一个场景，可能来自动画、电影或游戏，其中包含两个主要角色。以下是图片内容的详细描述：\n\n1. **角色和姿态**：\n   - 图片右侧的角色是一位身穿重型盔甲的战士，盔甲显得非常复杂和精致，带有机械感的设计。盔甲颜色主要是黑色和金色，肩部和胸部有明显的装饰。\n   - 这位角色的头发是金色的，长度适中，发型整齐，露出一部分耳朵。\n   - 他的头部动作似乎显示出一种惊讶或警觉的状态，头部微微向后仰，眼睛望向一侧，表情紧张或专注。\n   - 他的右手向外伸出，可能在触摸或握着某个物体。\n\n2. **另一位角色**：\n   - 图片左侧的角色只露出了一部分肢体，可以看到手臂和手套。\n   - 手臂肌肉发达，穿着黑色紧身衣，手套上有红色的装饰或标记。\n   - 手掌和手指紧紧握着右侧角色的右腕，力量感十足，似乎在施加某种压力或握住对方的注意力。\n\n3. **背景**：\n   - 背景模糊，似乎是在一个阴天或者是天空中有云层，天空的颜色呈现浅蓝或灰白，没有明显的太阳或其他光线。\n\n4. **氛围**：\n   - 整体氛围显得紧张且充满戏剧性，可能是战斗即将发生或者正在进行中的一刻。\n   - 角色的动态和表情传达出一种冲突或对峙的情绪，可能是双方正处于某种交互或对决的瞬间。\n\n图片的细节和风格显示出一种未来感和机械感较强的设定，可能是科幻或奇幻题材的作品。\n\n图片链接: https://www.ign.com.cn/sm/t/ign_cn/news/w/world-of-w/world-of-warcraft-battle-for-azeroth-review-in-progress_hc4u.1280.jpg\n描述: 这张图片展示了一幅充满奇幻色彩的艺术插画，画面中主要有两个人物，背景是一个战场场景，充满了紧张和对抗的氛围。\n\n### **主要人物：**\n1. **左侧人物：**\n   - **外貌特征：**\n     - 独特的尖耳，表明他是精灵或其他具有精灵特征的角色。\n     - 红色的眼睛，散发出冷酷和神秘的气息。\n     - 白色的长发，显得非常飘逸。\n     - 脸上有一些面部装饰，可能是一种纹身或符号，增加了神秘感。\n   - **服饰和装备：**\n     - 他戴着一顶紫色的兜帽，兜帽上有白色的装饰花纹，显得非常精致。\n     - 肩膀上有一块紫色的护甲，护甲上镶嵌有两个骷髅头图案，暗示可能与死亡、暗黑或魔法力量相关。\n     - 整体外观显得神秘而强大，似乎是一个法师或拥有魔法能力的角色。\n\n2. **右侧人物：**\n   - **外貌特征：**\n     - 金黄色的长发，梳理整齐，显得干净利落。\n     - 脸上表情严肃，眼神中透露出坚定和决心。\n     - 耳朵较小，与左侧精灵角色的尖耳形成对比，表明他是人类或其他身材强健的角色。\n   - **服饰和装备：**\n     - 胸前和肩膀上穿着华丽而复杂的金色铠甲，铠甲上有很多雕刻的花纹和设计，显得非常精致。\n     - 护甲的设计给人一种战士或骑士的感觉，显示出强大的战斗力。\n\n### **背景：**\n- 背景是一个广阔的战场，天空中弥漫着浓烈的烟尘，暗示战争已经持续了相当长的时间。\n- 战场上可以看到大量的士兵在战斗，士兵们挥舞着武器，有些士兵倒在地上，整个画面充满了混乱和紧张的氛围。\n- 天空虽然是阴沉的，但地平线处有一抹黄色的光芒，可能是夕阳或战火的余晖，增添了一丝戏剧性。\n\n### **整体氛围：**\n- 画面中左右两侧的角色形成鲜明对比，左侧角色显得神秘而冷酷，右侧角色则坚定而强大，似乎两人之间存在某种对立或冲突。\n- 整个场景充满了奇幻和史诗的风格，可能是一场正面冲突或对抗的瞬间，背景的战场更加强化了这种紧张的氛围。\n\n这幅插画展现了奇幻世界中两种不同力量的对峙，人物细节和背景设计都非常精美，充满了视觉冲击力。', annotations=None, meta=None)] structuredContent={'result': '图片链接: https://i0.hdslb.com/bfs/article/39418eeead4d7855eb112e7db6b3b3dee6c8d8d1.png\n描述: 这张图片展示了一个游戏中的角色，背景是一个昏暗的环境中，天空呈现出深色，地面上有一些木质结构。以下是图片的具体描述：\n\n### **角色描述：**\n1. **外观：**\n   - **肤色**：角色皮肤呈绿色，带有邪恶的气息。\n   - **眼睛**：角色的眼睛发出绿色的光，显得非常诡异。\n   - **发型**：角色的头发是深色的，带有尖尖的发梢，显得很有攻击性。\n   - **服饰**：\n     - 上身穿着类似护甲的衣服，护甲上有黄色的装饰。\n     - 下身穿着绿色和黑色的裤子，裤腿上有复杂的花纹。\n     - 脚上穿着黑色的靴子。\n     - 腰间似乎有一些护甲或装饰物。\n\n2. **配饰：**\n   - 角：角色头上有一对弯曲的角，角的颜色是深绿色。\n   - 面具：角色戴着一副黑色的面具，遮住了嘴巴和下巴。\n\n3. **姿态：**\n   - 角色站立，双手自然垂下。\n   - 左手似乎拿着一个黄色的物体，形状类似于一个笑脸。\n\n4. **背景：**\n   - 背景中有巨大的红色幔布，幔布的边缘带有褶皱，显得非常厚重。\n   - 天空呈现出黄昏或黎明时分的颜色，整体氛围昏暗且神秘。\n\n### **整体氛围：**\n- 整体画面给人一种恐怖和神秘的感觉，角色的绿色皮肤、绿色眼睛和黑色面具都增加了邪恶的气息。\n- 黑暗的天空和巨大的幔布背景进一步增强了这种氛围。\n\n这张图片可能来源于一款奇幻或恐怖风格的电子游戏，角色的设计非常符合这种类型的场景设置。\n\n图片链接: https://puui.qpic.cn/vpic_cover/t07005q6xy6/t07005q6xy6_hz.jpg/1280\n描述: 这张图片展示了一个场景，可能来自动画、电影或游戏，其中包含两个主要角色。以下是图片内容的详细描述：\n\n1. **角色和姿态**：\n   - 图片右侧的角色是一位身穿重型盔甲的战士，盔甲显得非常复杂和精致，带有机械感的设计。盔甲颜色主要是黑色和金色，肩部和胸部有明显的装饰。\n   - 这位角色的头发是金色的，长度适中，发型整齐，露出一部分耳朵。\n   - 他的头部动作似乎显示出一种惊讶或警觉的状态，头部微微向后仰，眼睛望向一侧，表情紧张或专注。\n   - 他的右手向外伸出，可能在触摸或握着某个物体。\n\n2. **另一位角色**：\n   - 图片左侧的角色只露出了一部分肢体，可以看到手臂和手套。\n   - 手臂肌肉发达，穿着黑色紧身衣，手套上有红色的装饰或标记。\n   - 手掌和手指紧紧握着右侧角色的右腕，力量感十足，似乎在施加某种压力或握住对方的注意力。\n\n3. **背景**：\n   - 背景模糊，似乎是在一个阴天或者是天空中有云层，天空的颜色呈现浅蓝或灰白，没有明显的太阳或其他光线。\n\n4. **氛围**：\n   - 整体氛围显得紧张且充满戏剧性，可能是战斗即将发生或者正在进行中的一刻。\n   - 角色的动态和表情传达出一种冲突或对峙的情绪，可能是双方正处于某种交互或对决的瞬间。\n\n图片的细节和风格显示出一种未来感和机械感较强的设定，可能是科幻或奇幻题材的作品。\n\n图片链接: https://www.ign.com.cn/sm/t/ign_cn/news/w/world-of-w/world-of-warcraft-battle-for-azeroth-review-in-progress_hc4u.1280.jpg\n描述: 这张图片展示了一幅充满奇幻色彩的艺术插画，画面中主要有两个人物，背景是一个战场场景，充满了紧张和对抗的氛围。\n\n### **主要人物：**\n1. **左侧人物：**\n   - **外貌特征：**\n     - 独特的尖耳，表明他是精灵或其他具有精灵特征的角色。\n     - 红色的眼睛，散发出冷酷和神秘的气息。\n     - 白色的长发，显得非常飘逸。\n     - 脸上有一些面部装饰，可能是一种纹身或符号，增加了神秘感。\n   - **服饰和装备：**\n     - 他戴着一顶紫色的兜帽，兜帽上有白色的装饰花纹，显得非常精致。\n     - 肩膀上有一块紫色的护甲，护甲上镶嵌有两个骷髅头图案，暗示可能与死亡、暗黑或魔法力量相关。\n     - 整体外观显得神秘而强大，似乎是一个法师或拥有魔法能力的角色。\n\n2. **右侧人物：**\n   - **外貌特征：**\n     - 金黄色的长发，梳理整齐，显得干净利落。\n     - 脸上表情严肃，眼神中透露出坚定和决心。\n     - 耳朵较小，与左侧精灵角色的尖耳形成对比，表明他是人类或其他身材强健的角色。\n   - **服饰和装备：**\n     - 胸前和肩膀上穿着华丽而复杂的金色铠甲，铠甲上有很多雕刻的花纹和设计，显得非常精致。\n     - 护甲的设计给人一种战士或骑士的感觉，显示出强大的战斗力。\n\n### **背景：**\n- 背景是一个广阔的战场，天空中弥漫着浓烈的烟尘，暗示战争已经持续了相当长的时间。\n- 战场上可以看到大量的士兵在战斗，士兵们挥舞着武器，有些士兵倒在地上，整个画面充满了混乱和紧张的氛围。\n- 天空虽然是阴沉的，但地平线处有一抹黄色的光芒，可能是夕阳或战火的余晖，增添了一丝戏剧性。\n\n### **整体氛围：**\n- 画面中左右两侧的角色形成鲜明对比，左侧角色显得神秘而冷酷，右侧角色则坚定而强大，似乎两人之间存在某种对立或冲突。\n- 整个场景充满了奇幻和史诗的风格，可能是一场正面冲突或对抗的瞬间，背景的战场更加强化了这种紧张的氛围。\n\n这幅插画展现了奇幻世界中两种不同力量的对峙，人物细节和背景设计都非常精美，充满了视觉冲击力。'} isError=False
+2025-08-29 21:22:09,276 - mcp4search - INFO - LLM output: 
+<finish>
+
+# 探索艾泽拉斯：魔兽世界简介
+
+![魔兽世界游戏场景](http://i1.sinaimg.cn/gm/cr/2011/0429/1064402000.jpg)
+
+## 什么是魔兽世界？
+
+魔兽世界（World of Warcraft）是一款由暴雪娱乐开发的大型多人在线角色扮演游戏（MMORPG）。自2004年发布以来，它已成为全球最成功和最受欢迎的MMORPG之一，拥有数百万忠实玩家。
+
+## 丰富的游戏玩法
+
+![大灾变扩展包宣传图](http://www.v3wall.com/wallpaper/1920_1200/1106/1920_1200_201106240953031697008.jpg)
+
+魔兽世界提供了多样化的游戏体验，主要包括：
+
+- **PvE内容**：玩家与环境互动，包括地下城探索、团队副本挑战、任务完成等
+- **PvP竞技**：玩家之间的对战，包括战场、竞技场和世界PvP
+- **开放世界探索**：在广阔的艾泽拉斯大陆上自由探索各种奇妙的地域
+
+## 两大阵营的对立
+
+![联盟与部落的对峙](https://www.ign.com.cn/sm/t/ign_cn/news/w/world-of-w/world-of-warcraft-battle-for-azeroth-review-in-progress_hc4u.1280.jpg)
+
+玩家可以选择加入两大对立的阵营：
+
+**联盟** - 代表秩序和荣耀，包括人类、矮人、暗夜精灵等种族
+**部落** - 代表自由和力量，包括兽人、牛头人、亡灵等种族
+
+## 服务器类型选择
+
+游戏提供两种主要服务器类型：
+
+**PvP服务器**：在争议区域强制开启PvP，适合喜欢刺激战斗的玩家
+**PvE服务器**：PvP为可选模式，适合喜欢休闲玩法和专注剧情的玩家
+
+## 持续发展的世界
+
+![神秘角色](https://i0.hdslb.com/bfs/article/39418eeead4d7855eb112e7db6b3b3dee6c8d8d1.png)
+
+魔兽世界通过定期的扩展包更新，不断扩展游戏内容和故事线。从最初的"经典旧世"到最新的扩展包，游戏世界持续进化，为玩家带来新的冒险和挑战。
+
+## 结语
+
+无论你是喜欢激烈战斗的硬核玩家，还是享受探索故事和社交的休闲玩家，魔兽世界都能提供丰富多样的游戏体验。这个充满魔法、传奇和冒险的世界，等待着每一位勇士的到来！
